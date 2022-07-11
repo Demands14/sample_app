@@ -39,6 +39,7 @@ group :development, :test do
   gem "rubocop-rails", "~> 2.14.0", require: false
 end
 
+gem "bcrypt", "3.1.13"
 gem "htmlbeautifier"
 gem "net-imap", require: false
 gem "net-pop", require: false
