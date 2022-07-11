@@ -1,0 +1,12 @@
+footer:
+  tutorial: "https://www.railstutorial.org/"
+  author: "https://www.michaelhartl.com/"
+  new_link: "https://news.railstutorial.org/"
+contact:
+  contact_link: "https://www.railstutorial.org/contact"
+help:
+  help_link: "http://www.railstutorial.org/help"
+  book_link: "http://www.railstutorial.org/book"
+home:
+  tutorial_rails: "https://www.railstutorial.org/"
+  ruby_on_rails: "https://rubyonrails.org/"
