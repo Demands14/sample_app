@@ -37,8 +37,9 @@ yarn-debug.log*
 .framgia-ci-result.temp.yml
 /config/master.key
 /test/
-/log/
+/log/*
 config/settings.local.yml
 config/settings/*.local.yml
 config/environments/*.local.yml
-/.vscode/
+.vscode/
+log/
