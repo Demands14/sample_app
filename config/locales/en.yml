@@ -1,33 +1,48 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  title:
+    about: "About"
+    home: "Home"
+    help: "Help"
+    contact: "Contact"
+    sign_up: "Sign Up"
+  page_title: "Ruby on Rails Tutorial Sample App"
+  layouts:
+    header:
+      title: "Sample App"
+      home: "Home"
+      login: "Login"
+      help: "Help"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      rails: "Ruby on Rails Tutorial"
+      michale: Michael Hartl
+      by: "by"
+  static_pages:
+    home:
+      title: "Sample App"
+      provide_title: "Home"
+      service_html_first: "This is the home page for the"
+      service_html_last: "sample application."
+      rails_href: "Ruby on Rails Tutorial"
+      button_title: "Sign up now!"
+      welcome: "Welcome to the Sample App"
+    help:
+      title: "Help"
+      provide_title: "Help"
+      p1: "Get help on the Ruby on Rails Tutorial at the"
+      p2: "To get help on this sample app, see the"
+      rails_help: "Rails Tutorial help"
+      rails_book: "<em>Ruby on Rails Tutorial</em> book"
+    contact:
+      title: "Contact"
+      contact_content: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "contact page"
+  users:
+    new:
+      signup: "Sign up"
+      content: "This will be a signup page for new users."
+  helper:
+    application_helper:
+      base_title: "Ruby on Rails Tutorial Sample App"

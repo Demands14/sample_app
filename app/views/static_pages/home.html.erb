@@ -1,0 +1,12 @@
+<% provide :title, t("title.home") %>
+<div class="center jumbotron">
+  <h1><%= t ".title" %></h1>
+  <h2>
+    <%= t ".service_html_first" %>
+    <%= link_to t(".rails_href"), Settings.home.tutorial_rails, target: :_blank %>
+    <%= t ".service_html_last" %>
+  </h2>
+  <%= link_to t(".button_title"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("railslogo.png", class: "image"),
+    Settings.home.ruby_on_rails, target: :_blank %>
