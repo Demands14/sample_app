@@ -43,6 +43,20 @@ en:
     new:
       signup: "Sign up"
       content: "This will be a signup page for new users."
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirm_password: "Confirm Password"
+      submit: "Create my account"
+    create:
+      success: "Welcome to the Sample App!"
+      danger: "Fail to create new user"
+    show:
+      warning: "Not found user"
   helper:
     application_helper:
       base_title: "Ruby on Rails Tutorial Sample App"
+  shared:
+    error_messages:
+      content: "The form contains"
+      error: "error"

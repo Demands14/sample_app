@@ -42,6 +42,20 @@ vi:
     new:
       signup: "Đăng kí"
       content: "Đây sẽ là trang đăng ký cho người dùng mới."
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirm_password: "Xác nhận mật khẩu"
+      submit: "Tạo tài khoản"
+    create:
+      success: "Chào mừng đến Sample App!"
+      danger: "Tao tài khoản thất bại"
+    show:
+      warning: "Không tìm thấy User"
   helper:
     application_helper:
       base_title: "Ứng dụng mẫu hướng dẫn Ruby On Rails"
+  shared:
+    error_messages:
+      content: "Biểu mẫu chứa"
+      error: "Lỗi"
