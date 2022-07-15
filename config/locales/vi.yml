@@ -12,6 +12,11 @@ vi:
       home: "Trang chủ"
       login: "Đăng nhập"
       help: "Trợ giúp"
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
     footer:
       contact: "Liên hệ"
       news: "Tin tức"
@@ -59,3 +64,12 @@ vi:
     error_messages:
       content: "Biểu mẫu chứa"
       error: "Lỗi"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      new_user: "Bạn chưa có tài khoản?"
+      sign_up_now: "Đăng kí ngay !"
+    create:
+      danger: "Tài khoản và Mật khẩu không hợp lệ"
