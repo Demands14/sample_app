@@ -18,7 +18,6 @@ en:
       settings: "Settings"
       logout: "Log Out"
     footer:
-      about: "About"
       contact: "Contact"
       news: "News"
       rails: "Ruby on Rails Tutorial"
@@ -72,5 +71,6 @@ en:
       password: "Password"
       new_user: "New user?"
       sign_up_now: "Sign up now !"
+      remember_me: "Remember me on this computer"
     create:
       danger: "invalid email password combination"

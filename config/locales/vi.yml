@@ -71,5 +71,6 @@ vi:
       password: "Mật khẩu"
       new_user: "Bạn chưa có tài khoản?"
       sign_up_now: "Đăng kí ngay !"
+      remember_me: "Ghi nhớ tài khoản của tôi"
     create:
       danger: "Tài khoản và Mật khẩu không hợp lệ"
