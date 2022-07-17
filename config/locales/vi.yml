@@ -47,16 +47,38 @@ vi:
     new:
       signup: "Đăng kí"
       content: "Đây sẽ là trang đăng ký cho người dùng mới."
-      name: "Tên"
-      email: "Email"
-      password: "Mật khẩu"
-      confirm_password: "Xác nhận mật khẩu"
       submit: "Tạo tài khoản"
     create:
       success: "Chào mừng đến Sample App!"
       danger: "Tao tài khoản thất bại"
-    show:
-      warning: "Không tìm thấy User"
+    find_user:
+      warning: "Không tìm thấy tài khoản"
+    logged_in_user:
+      danger: "Hãy đăng nhập"
+    correct_user:
+      danger: "Sai người dùng"
+    update:
+      danger: "Cập nhật thất bại"
+    destroy:
+      success: "Đã xóa người dùng"
+      danger: "Xoá thất bại"
+    edit:
+      edit_user: "Chỉnh sửa"
+      h1: "Cập nhật thông tin"
+      submit: "Lưu thay đổi"
+      change: "Thay đổi"
+    form:
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirm_password: "xác nhận mật khẩu"
+    update:
+      success: "Cập nhật thành công"
+    index:
+      all_users: "Tất cả người dùng"
+    user:
+      delete: "Xóa"
+      confirm: "Bạn có chắc chắn?"
   helper:
     application_helper:
       base_title: "Ứng dụng mẫu hướng dẫn Ruby On Rails"

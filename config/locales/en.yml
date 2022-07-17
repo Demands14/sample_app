@@ -12,7 +12,7 @@ en:
       home: "Home"
       login: "Log in"
       help: "Help"
-      user: "User"
+      user: "Users"
       account: "Account"
       profile: "Profile"
       settings: "Settings"
@@ -47,16 +47,38 @@ en:
     new:
       signup: "Sign up"
       content: "This will be a signup page for new users."
-      name: "Name"
-      email: "Email"
-      password: "Password"
-      confirm_password: "Confirm Password"
       submit: "Create my account"
     create:
       success: "Welcome to the Sample App!"
       danger: "Fail to create new user"
-    show:
+    find_user:
       warning: "Not found user"
+    logged_in_user:
+      danger: "Please log in"
+    correct_user:
+      danger: "Not correct user"
+    update:
+      danger: "Fail to update"
+    destroy:
+      success: "User deleted"
+      danger: "Fail to delete"
+    edit:
+      edit_user: "Edit user"
+      h1: "Update your profile"
+      submit: "Save change"
+      change: "Change"
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirm_password: "Confirm Password"
+    update:
+      success: "Profile updated"
+    index:
+      all_users: "All users"
+    user:
+      delete: "Delete"
+      confirm: "Are you sure?"
   helper:
     application_helper:
       base_title: "Ruby on Rails Tutorial Sample App"
