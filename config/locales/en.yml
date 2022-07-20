@@ -10,8 +10,13 @@ en:
     header:
       title: "Sample App"
       home: "Home"
-      login: "Login"
+      login: "Log in"
       help: "Help"
+      user: "User"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log Out"
     footer:
       about: "About"
       contact: "Contact"
@@ -60,3 +65,12 @@ en:
     error_messages:
       content: "The form contains"
       error: "error"
+  sessions:
+    new:
+      login: "Log in"
+      email: "Email"
+      password: "Password"
+      new_user: "New user?"
+      sign_up_now: "Sign up now !"
+    create:
+      danger: "invalid email password combination"
