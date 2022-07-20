@@ -16,6 +16,6 @@ user:
     min_length: 20
     max_length: 50
   name:
-    max_length: 10
+    max_length: 50
   password:
     min_length: 6
