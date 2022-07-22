@@ -51,6 +51,7 @@ en:
     create:
       success: "Welcome to the Sample App!"
       danger: "Fail to create new user"
+      check_email: "Please check your email to activate your account."
     find_user:
       warning: "Not found user"
     logged_in_user:
@@ -96,3 +97,17 @@ en:
       remember_me: "Remember me on this computer"
     create:
       danger: "invalid email password combination"
+      message: "Account not activated.Check your email for the activation link."
+  user_mailer:
+    account_activation:
+      h1: "Sample App"
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      active: "Activate"
+      activation: "Account activation"
+  account_activations:
+    edit:
+      activated: "Account activated!"
+      invalid: "Invalid activation link"
+    load_user:
+      not_found: "Not found user"

@@ -51,6 +51,7 @@ vi:
     create:
       success: "Chào mừng đến Sample App!"
       danger: "Tao tài khoản thất bại"
+      check_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản."
     find_user:
       warning: "Không tìm thấy tài khoản"
     logged_in_user:
@@ -96,3 +97,17 @@ vi:
       remember_me: "Ghi nhớ tài khoản của tôi"
     create:
       danger: "Tài khoản và Mật khẩu không hợp lệ"
+      message: "Tài khoản chưa được kích hoạt.Kiểm tra email của bạn để lấy đường dẫn kích hoạt"
+  user_mailer:
+    account_activation:
+      h1: "Sample App"
+      hi: "Xin chào"
+      welcome: "Chào mừng bạn đến với Sample App! Click vào link dưới đây để kích hoạt tài khoản:"
+      active: "Kích hoạt"
+      activation: "Kích hoạt tài khoản"
+  account_activation:
+    edit:
+      activated: "Tài khoản đã được kính hoạt"
+      invalid: "Đường dẫn kích hoạt không hợp lệ"
+    load_user:
+      not_found: "Không tìm thấy người dùng"
