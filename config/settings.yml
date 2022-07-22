@@ -19,3 +19,11 @@ user:
     max_length: 50
   password:
     min_length: 6
+helper:
+  users:
+    size: 80
+users:
+  user:
+    size: 50
+  edit:
+    change_avatar_link: "https://gravatar.com/emails"

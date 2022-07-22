@@ -14,9 +14,12 @@ class User < ApplicationRecord
   validates :name, presence: true,
             length: {maximum: Settings.user.name.max_length}
   validates :password, presence: true,
-            length: {minimum: Settings.user.password.min_length}, if: :password
+            length: {minimum: Settings.user.password.min_length}, if: :password,
+            allow_nil: true
 
   has_secure_password
+
+  scope :name_asc, ->{order(name: :asc)}
 
   class << self
     def digest string
