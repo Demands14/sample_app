@@ -20,6 +20,13 @@ user:
     max_length: 50
   password:
     min_length: 6
+micropost:
+  content:
+    max_length: 150
+  image:
+    path: ["image/jpeg", "image/gif", "image/png"]
+    size: 5
+    resize: [500, 500]
 helper:
   users:
     size: 80
