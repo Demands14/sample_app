@@ -15,6 +15,7 @@ user:
   email:
     min_length: 20
     max_length: 50
+    expired: 2
   name:
     max_length: 50
   password:

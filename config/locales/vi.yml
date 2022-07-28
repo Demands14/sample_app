@@ -95,6 +95,7 @@ vi:
       new_user: "Bạn chưa có tài khoản?"
       sign_up_now: "Đăng kí ngay !"
       remember_me: "Ghi nhớ tài khoản của tôi"
+      forgot_password: "Quên mật khẩu ?"
     create:
       danger: "Tài khoản và Mật khẩu không hợp lệ"
       message: "Tài khoản chưa được kích hoạt.Kiểm tra email của bạn để lấy đường dẫn kích hoạt"
@@ -105,9 +106,35 @@ vi:
       welcome: "Chào mừng bạn đến với Sample App! Click vào link dưới đây để kích hoạt tài khoản:"
       active: "Kích hoạt"
       activation: "Kích hoạt tài khoản"
+    password_reset:
+      reset_subject: "Đặt lại mật khẩu"
+      h1: "Đặt lại mật khẩu"
+      link: "Đặt lại mật khẩu"
+      p1: "Để đặt lại mật khẩu click vào đường dẫn bên dưới"
+      p2: "Đường dẫn này sẽ hết hạn trong vòng 2 giờ tới"
+      p3: "Nếu bạn không yêu cầu đặt lại mật khẩu, Vui lòng bỏ qua email này và mật khẩu của bạn vẫn được giữ nguyên như cũ."
   account_activation:
     edit:
       activated: "Tài khoản đã được kính hoạt"
       invalid: "Đường dẫn kích hoạt không hợp lệ"
     load_user:
       not_found: "Không tìm thấy người dùng"
+  password_resets:
+    new:
+      forgot_password: "Quên mật khẩu"
+      submit: "Xác nhận"
+    create:
+      info: "Đã gửi email kèm theo hướng dẫn đặt lại mật khẩu"
+      danger: "Không tìm thấy địa chỉ email"
+    edit:
+      reset_password: "Đặt lại mật khẩu"
+      submit: "Cập nhật mật kgẩu"
+      password: "Mật khẩu"
+      confirm_password: "Xác nhận mật khẩu"
+      danger: "Đã hết hạn đặt lại mật khẩu"
+      not_found: "Không tìm thấy địa chỉ emails"
+    update:
+      empty: "Không được để trống"
+      success: "Mật khẩu đã được đặt lại"
+      danger: "Đặt lại mật khẩu thất bại"
+      not_found: "Không tìm thấy địa chỉ emails"
