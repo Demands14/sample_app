@@ -5,6 +5,7 @@ en:
     help: "Help"
     contact: "Contact"
     sign_up: "Sign Up"
+  logged_in_user: "Please log in"
   page_title: "Ruby on Rails Tutorial Sample App"
   layouts:
     header:
@@ -32,6 +33,7 @@ en:
       rails_href: "Ruby on Rails Tutorial"
       button_title: "Sign up now!"
       welcome: "Welcome to the Sample App"
+      feed: "Micropost Feed"
     help:
       title: "Help"
       provide_title: "Help"
@@ -54,8 +56,6 @@ en:
       check_email: "Please check your email to activate your account."
     find_user:
       warning: "Not found user"
-    logged_in_user:
-      danger: "Please log in"
     correct_user:
       danger: "Not correct user"
     update:
@@ -80,6 +80,8 @@ en:
     user:
       delete: "Delete"
       confirm: "Are you sure?"
+    show:
+      microposts: "Microposts"
   helper:
     application_helper:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -87,6 +89,12 @@ en:
     error_messages:
       content: "The form contains"
       error: "error"
+    user_info:
+      profile: "view my profile"
+      micropost: "micropost"
+    micropost_form:
+      placeholder: "Compose new micropost..."
+      submit: "Post"
   sessions:
     new:
       login: "Log in"
@@ -138,3 +146,24 @@ en:
       success: "Password has been reset."
       danger: "Fail to Reset Password"
       not_found: "Email address not found"
+  microposts:
+    micropost:
+      posted: "Posted %{time} ago."
+      delete: "Delete"
+      confirm: "You sure?"
+    create:
+      success: "Micropost created!"
+      danger: "Fail to create Micropost"
+    destroy:
+      success: "Micropost deleted"
+      danger: "Fail to delete Micropost"
+    find_micropost:
+      danger: "Can't found Micropost"
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              size: "should be less than 5MB"
+              format: "must be a valid image format"

@@ -6,6 +6,7 @@ vi:
     contact: "Liên Hệ"
     sign_up: "Đăng Ký"
   page_title: "Ruby on Rails Tutorial Sample App"
+  logged_in_user: "Hãy đăng nhập"
   layouts:
     header:
       title: "Sample App"
@@ -32,6 +33,7 @@ vi:
       rails_href: "Hướng dẫn Ruby on Rails"
       button_title: "Đăng ký ngay"
       welcome: "Chào mừng đến Sample App"
+      feed: "Bảng tin bài đăng"
     help:
       title: "Trợ giúp"
       provide_title: "Trợ giúp"
@@ -54,8 +56,6 @@ vi:
       check_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản."
     find_user:
       warning: "Không tìm thấy tài khoản"
-    logged_in_user:
-      danger: "Hãy đăng nhập"
     correct_user:
       danger: "Sai người dùng"
     update:
@@ -80,6 +80,8 @@ vi:
     user:
       delete: "Xóa"
       confirm: "Bạn có chắc chắn?"
+    show:
+      microposts: "Bài đăng"
   helper:
     application_helper:
       base_title: "Ứng dụng mẫu hướng dẫn Ruby On Rails"
@@ -87,6 +89,12 @@ vi:
     error_messages:
       content: "Biểu mẫu chứa"
       error: "Lỗi"
+    user_info:
+      profile: "Xem thông tin của tôi"
+      micropost: "bài đăng"
+    micropost_form:
+      placeholder: "Viết bài đăng ...."
+      submit: "Đăng"
   sessions:
     new:
       login: "Đăng nhập"
@@ -138,3 +146,24 @@ vi:
       success: "Mật khẩu đã được đặt lại"
       danger: "Đặt lại mật khẩu thất bại"
       not_found: "Không tìm thấy địa chỉ emails"
+  microposts:
+    micropost:
+      posted: "Đăng %{time} trước."
+      delete: "Xóa"
+      confirm: "Bạn chắc chắn?"
+    create:
+      success: "Tạo bài đăng thành công!"
+      danger: "Tạo bài đăng thất bại"
+    destroy:
+      success: "Đã xóa bài đăng"
+      danger: "Xóa bài đăng thất bại"
+    find_micropost:
+      danger: "Không thể tìm thấy bài đăng"
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              size: "Ảnh nên bé hơn 5MB"
+              format: "Phải đúng định dạng ảnh"
