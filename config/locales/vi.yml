@@ -82,6 +82,20 @@ vi:
       confirm: "Bạn có chắc chắn?"
     show:
       microposts: "Bài đăng"
+    follow:
+      submit: "Theo dõi"
+    unfollow:
+      submit: "Bỏ theo dõi"
+    following:
+      following: "Đang theo dõi"
+    followers:
+      followers: "Người theo dõi"
+    show_follow:
+      view: "Xem thông tin của tôi"
+      microposts: "Các bài đăng:"
+  relationships:
+      danger_follow: "Theo dõi thất bại"
+      danger_unfollow: "Bỏ theo dõi thất bại"
   helper:
     application_helper:
       base_title: "Ứng dụng mẫu hướng dẫn Ruby On Rails"
@@ -95,6 +109,9 @@ vi:
     micropost_form:
       placeholder: "Viết bài đăng ...."
       submit: "Đăng"
+    stats:
+      following: "Đang theo dõi"
+      followers: "Người theo dõi"
   sessions:
     new:
       login: "Đăng nhập"
