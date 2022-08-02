@@ -30,6 +30,7 @@ micropost:
 helper:
   users:
     size: 80
+    min_size: 30
 users:
   user:
     size: 50
